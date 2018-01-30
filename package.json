@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --inline --hot --progress --colors"
   },
+  "bin": {
+    "mcli": "./bin/mcli.js"
+  },
   "author": "maoyuyang",
   "license": "ISC",
   "dependencies": {
