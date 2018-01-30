@@ -1,13 +1,13 @@
 {
-  "name": "hello",
+  "name": "myy-cli",
   "version": "1.0.0",
-  "description": "A project named hello",
+  "description": "A command tool",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --inline --hot --progress --colors"
   },
-  "author": "",
+  "author": "maoyuyang",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.3.0",

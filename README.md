@@ -6,6 +6,6 @@
 
 ## usage
 ```
-  npm install -g mcli
-  mcli init hello
+  npm install -g myy-cli
+  myy-cli init hello
 ```
