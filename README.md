@@ -7,5 +7,5 @@
 ## usage
 ```
   npm install -g myy-cli
-  myy-cli init hello
+  mcli init hello
 ```
