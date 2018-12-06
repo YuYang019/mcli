@@ -40,7 +40,7 @@ function updateRootName () {
         const dirName = files[i]
         if (dirName.indexOf(projectName) !== -1) {
           // 如果该目录下有一个相同名称的文件夹
-          console.log(`项目${projectName}已存在`)
+          console.log(logSymbols.error, `项目${projectName}已存在`)
           isRepeat = true;
           return 
         }
@@ -65,7 +65,7 @@ function updateRootName () {
 
 }
 
-function go () {
+function run () {
   updateRootName()
   
   if (isRepeat) return
@@ -111,12 +111,15 @@ function go () {
       return generator(context.metadata, context.root, context.downladTemp)
     })
     .then(context => {
+      console.log(' ')
       console.log(logSymbols.success, chalk.green('创建成功 :)'))
+      console.log(' ')
       console.log(chalk.green(`cd ${ context.root }\nnpm install\nnpm run dev`))
+      console.log(' ')
     })
     .catch(err => {
       console.log(logSymbols.error, chalk.red(`创建失败: ${err}`))
     })
 }
 
-go()
+run()
