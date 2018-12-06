@@ -1,5 +1,5 @@
 const config = {
-  url: 'https://github.com/maoyuyang/template'
+  repo: 'github:maoyuyang/mcli-template'
 }
 
 module.exports = config

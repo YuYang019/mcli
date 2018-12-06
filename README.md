@@ -12,7 +12,7 @@
 
 ## 总结
 
-涉及到库：commander, chalk, metalsmith, ora, rimraf, git-clone, handlebars, inquirer
+涉及到库：commander, chalk, metalsmith, ora, rimraf, download-git-repo, handlebars, inquirer
 
 1. 利用package.json的bin选项指定命令名和可执行文件的位置
 
@@ -24,7 +24,7 @@
 
 5. rimraf, 用于删除文件的插件
 
-6. git-clone, 用于从github拷贝模板的插件
+6. download-git-repo, 用于从github拷贝模板的插件
 
 7. inquirer, 提供交互式命令的插件，基本用法可见mcli-init.js文件，每一个问答都会被封装到then的answer里，answer是一个对象，它的key是之前的name字段，value是回答的答案
 
