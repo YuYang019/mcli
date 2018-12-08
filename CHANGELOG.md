@@ -2,7 +2,7 @@
 
 `2018-12-08`
 
-- 📖 在`package.json`中增加git repo
+- 📖 在`package.json`中增加git repo，关联至npm
 
 ## 1.1.0
 
