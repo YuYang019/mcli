@@ -37,3 +37,7 @@
 metalsmith有一个metadata的东西，可以理解为全局的变量对象。把需要替换的键值放进去。
 
 基本流程：`mcli init xxx`获取xxx为项目名称。检测同名文件夹是否已存在等等，然后交互式命令，确定名称，版本号，简介。这些为要替换的东西，也就是metadata。然后从github拉取模板，下载完成后，用metalsmith和handlebars替换模板内容，结束
+
+## UPDATE
+
+1. 使用cac替代commander，原因是看到了vuepress用了，尝试一下，感觉api更简洁。另外使用高阶函数可以非常有效的解耦代码
