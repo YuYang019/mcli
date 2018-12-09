@@ -1,8 +1,14 @@
-## 玩具脚手架工具
+<p>
+  <a href="https://www.npmjs.com/package/myy-cli"><img src="https://img.shields.io/npm/v/myy-cli.svg" alt="version"></a>
+  <a href="https://www.npmjs.com/package/myy-cli"><img src="https://img.shields.io/npm/dm/myy-cli.svg" alt="downloads"></a>
+  <a href="https://www.npmjs.com/package/myy-cli"><img src="https://img.shields.io/github/license/maoyuyang/mcli.svg" alt="license"></a>
+  <img src="https://img.shields.io/david/maoyuyang/mcli.svg">
+  <img src="https://img.shields.io/david/dev/maoyuyang/mcli.svg">
+</p>
 
-做这个的原因，就是写一些小项目的时候，老是要重新配置，所以干脆写一个
+## mcli脚手架工具 
 
-大部分参考了网上的教程
+做这个的原因，就是写一些小项目的时候，老是要重新配置，所以写一个可以快速生成项目的
 
 ## usage
 ```
