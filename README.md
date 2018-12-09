@@ -8,13 +8,25 @@
 
 ## mcli脚手架工具 
 
-做这个的原因，就是写一些小项目的时候，老是要重新配置，所以写一个可以快速生成项目的
+做这个的原因，就是写一些小项目的时候，老是要重新配置，所以写一个可以依据模板快速生成项目的工具
 
 ## usage
+### simple use
 ```
   npm install -g myy-cli
   mcli init hello
 ```
+
+### change mode
+默认使用download模式下载模板，如果想使用git clone模式，可以这样
+```
+  mcli init hello -c or --clone
+```
+注意，git clone时使用的是ssh地址
+
+### change repository
+
+请修改`config.js`中的repo属性，具体书写规则参见[download-git-repo](https://github.com/flipxfx/download-git-repo)
 
 ## 总结
 
